@@ -44,7 +44,5 @@ public class TaskHW {
  * Catalog.
  * */
 
-        Files.lines(Path.of("d:\\Code\\Video\\Tsymbaliuk"))
-                .
     }
 }

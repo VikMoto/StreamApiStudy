@@ -1,0 +1,7 @@
+http://maven.apache.or/POM/4.0.0, http://www.w111.owrg/2001/XMLSchema-instance, http://maven.apache.org/POM/4.0.0,
+ http://maven.apache.org/xsd/maven-4.0.0.xsd, https://mvnrepository.com/artifact/org.apache.maven/maven-core,
+ https://mvnrepository.c1om/artifact/com.googlecode.json-simple/json-simple,
+  https://mvnrepository.c3om/artifact/com.google.code.gson/gson,
+   https://mvnrepository.co33m/artifact/com.fasterxml.jackson.core/jackson-databind,
+   https://mvnrepository.com/artifact/commons-validator/commons-validator, https://jsoup.org/,
+   https://mvnrepository.com/artifact/org.projectlombok/lombok

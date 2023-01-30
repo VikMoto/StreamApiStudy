@@ -49,7 +49,7 @@ public class OrderTest {
                 });
 //        stream2.forEach(n -> System.out.println("forEach " + n));
 
-        System.out.println("----------------------------------------");
+//        System.out.println("----------------------------------------");
         List<String> list3 = List.of("A1", "A2", "A3");
         Stream<String> stream3 = list3.stream()
                 .filter(n -> {

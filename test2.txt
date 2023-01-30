@@ -1,0 +1,1 @@
+Creates a result by accumulating stream elements.

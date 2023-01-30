@@ -1,4 +1,4 @@
-Itфф isіі no9t by9 accident that9 this section also includes the hashCode() method in its title. The last, but not least, rule to remember:
+It is n9t by9 accident that9 this section also includes the hashCode() method in its title. The last, but not least, rule to remember:
 whenever you override equals() method, тут тут тут туту always override the hashCode() method as well. If for any two objects the
 equals() method returns true, then the hashCode() method on each of those two objects must return the same integer value
 (however the opposite statement is not as strict: if for any two objects the equals() method returns false, the hashCode()

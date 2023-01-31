@@ -23,5 +23,7 @@ public class CollectingAndThenTest {
                 .collect(Collectors.collectingAndThen(downstream, finisher));
 
         System.out.println("result = " + result);
+
+       /**       result = [1, 22, 333, 4444, 55555]        */
     }
 }

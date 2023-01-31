@@ -44,7 +44,8 @@ public class GetFileSize {
             return "not classified";
         };
 
-        Map<String, List<File>> sample_folder = Arrays.stream(new File("sample_folder").listFiles())
+//        Map<String, List<File>> sample_folder = Arrays.stream(new File("sample_folder").listFiles())
+        Map<String, List<File>> sample_folder = Arrays.stream(new File("d:\\Video_Out").listFiles())
                 .collect(Collectors.groupingBy(outerClassifier));
 
 
@@ -54,6 +55,18 @@ public class GetFileSize {
                 System.out.println("\t " + a + " - " + a.length()/1024 + " kB");
             });
         });
+
+/**
+ * size = Small
+ * 	 sample_folder\200120100899_177668.jpg - 142 kB
+ * 	 sample_folder\2022-10-20_140211.png - 40 kB
+ * 	 sample_folder\image_2022-12-23_21-03-15.png - 102 kB
+ * 	 sample_folder\ISO_29119_4_Software_testing_Test_techniques_preview_2021.pdf - 1021 kB
+ * 	 sample_folder\Январь-2023.txt - 57 kB
+ * size = Medium
+ * 	 sample_folder\Manning.AWS.pdf - 10667 kB
+ *
+ * */
 
     }
 
@@ -75,3 +88,4 @@ public class GetFileSize {
     }
 
 }
+

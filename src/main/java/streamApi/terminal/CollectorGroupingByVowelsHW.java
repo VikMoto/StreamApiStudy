@@ -10,7 +10,8 @@ import java.util.function.Function;
 import java.util.function.Supplier;
 import java.util.stream.Collector;
 
-public class CollectorsGroupingByVowelsHW {
+
+public class CollectorGroupingByVowelsHW {
     public static void main(String[] args) {
         Collector<String, Map<String, String>, Map<String, String>> collector = new GroupByVowel<String>();
         String text = "Creates a result brrt accumulating ttt stream elements.";

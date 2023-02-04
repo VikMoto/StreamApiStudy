@@ -1,5 +1,7 @@
 package innerClasses;
 
+import innerClasses.InheritanceInnerClass.MathFunction;
+
 public class MathFunctionTest {
     public static void main(String[] args) {
         MathFunction mathFunction = new MathFunction();
